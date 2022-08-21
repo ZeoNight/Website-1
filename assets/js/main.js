@@ -326,5 +326,5 @@ updateOsDownloadButton(osDetails);
 
 function updateOsDownloadButton(osDetails) {
   let iconHtml = '<i class="icon bi ' + osDetails.icon + '"></i>'
-  document.querySelector('.btn-download-os').innerHTML = iconHtml + ' Download for Windows'
+  document.querySelector('.btn-download-os').innerHTML = iconHtml + ' Download for Windows';
 }
