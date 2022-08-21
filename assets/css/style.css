@@ -1445,7 +1445,7 @@ section {
   left: 0;
   bottom: 0;
   height: 100%;
-  width: 100%;
+  width: 150%;
   background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
@@ -1458,7 +1458,7 @@ section {
   opacity: 0;
   border-radius: 4px;
   transition: 0.5s;
-  background: white;
+  background: #181a1b;
   z-index: 2;
 }
 
@@ -2437,7 +2437,7 @@ section {
   transition: transform 450ms;
   opacity: var(--opacity);
   cursor: pointer;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 .btn-download-os:hover {
   font-family: "Montserrat", sans-serif;
